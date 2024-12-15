@@ -26,7 +26,7 @@ mongoose
     // }
   )
   .then(() => {
-    console.log('DB connection successful!');
+    // console.log('DB connection successful!');
   })
   .catch((error) => {
     console.error('DB connection error:', error);
@@ -48,7 +48,7 @@ const importData = async () => {
     await Review.create(reviews);
     console.log('Data successfully loaded!');
   } catch (err) {
-    console.log(err);
+    // console.log(err);
   }
   process.exit();
 };
